@@ -8,5 +8,5 @@ if (substr($url, 0, 3) === 'www') {
     $url = "www.$url";
 }
 
-header('Location: https://$url', true, 301);
+header("Location: https://$url", true, 301);
 exit();
